@@ -13,7 +13,7 @@
  * Not catalogued: the /v2/walks/* namespace, which belongs to Gumroad's own iOS
  * app rather than to sellers.
  */
-import type { Operation } from "@nasdigital/mcp-server-core";
+import type { Operation } from "@nasdigitaluk/mcp-server-core";
 
 export interface CataloguedOperation extends Operation {
   tags: string[];

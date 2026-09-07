@@ -1,6 +1,9 @@
 {
-  "name": "@nasdigital/gumroad-mcp",
+  "name": "@nasdigitaluk/gumroad-mcp",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Model Context Protocol server for the Gumroad API. Complete coverage of the seller surface, catalogued from Gumroad own routes.",
   "type": "module",
   "main": "dist/index.js",
@@ -26,7 +29,7 @@
     "prepublishOnly": "npm run build && npm test"
   },
   "dependencies": {
-    "@nasdigital/mcp-server-core": "file:../mcp-server-core",
+    "@nasdigitaluk/mcp-server-core": "^0.1.0",
     "zod": "^3.24.1"
   },
   "devDependencies": {

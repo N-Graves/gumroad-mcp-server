@@ -4,7 +4,7 @@ import {
   HttpClient,
   boundedText,
   type ToolDefinition,
-} from "@nasdigital/mcp-server-core";
+} from "@nasdigitaluk/mcp-server-core";
 import { OPERATIONS, type CataloguedOperation } from "./generated/operations.js";
 
 export const COVERED = OPERATIONS.filter((o) => o.status === "covered");
