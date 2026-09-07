@@ -21,7 +21,7 @@
  *     no such escape hatch here: a non-production base URL is just a base URL.
  */
 
-import { authorizerFromEnv, requireEnv, runServer, HttpClient } from "@nasdigital/mcp-server-core";
+import { authorizerFromEnv, requireEnv, runServer, HttpClient } from "@nasdigitaluk/mcp-server-core";
 import { buildTools, COVERED, FINANCIAL } from "./tools.js";
 
 const VERSION = "1.0.0";

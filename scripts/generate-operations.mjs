@@ -22,7 +22,7 @@
  */
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { renderCatalogue, reportBuild } from "@nasdigital/mcp-server-core/generate";
+import { renderCatalogue, reportBuild } from "@nasdigitaluk/mcp-server-core/generate";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const spec = JSON.parse(readFileSync(join(ROOT, "vendor/gumroad-operations.json"), "utf8"));

@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { HttpClient } from "@nasdigital/mcp-server-core";
+import { HttpClient } from "@nasdigitaluk/mcp-server-core";
 import { OPERATIONS } from "../src/generated/operations.js";
 import { buildTools, createDispatcher, COVERED, FINANCIAL } from "../src/tools.js";
 
